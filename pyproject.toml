@@ -1,0 +1,11 @@
+[project]
+name = "matcha-be"
+version = "0.1.0"
+description = "FastAPI backend for Matcha"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.163.1",
+]
+[tool.fastapi]
+entrypoint = "main:app"
